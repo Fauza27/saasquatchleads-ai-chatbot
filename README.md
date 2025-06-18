@@ -1,4 +1,5 @@
 # Caprae AI Analyst
+https://saasquatchleads-ai-chatbot.vercel.app/
 
 **Caprae AI Analyst** is a sophisticated lead generation and analysis tool designed for private equity firms. It leverages a Retrieval-Augmented Generation (RAG) architecture to provide a conversational interface for querying a private database of company prospects. Analysts can ask natural language questions to find companies, and then perform a "Deep Dive" to generate a comprehensive executive brief by combining database information with real-time website scraping.
 
