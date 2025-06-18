@@ -118,7 +118,7 @@ Run the script to populate your Astra DB collection. This script will:
 Execute the following command in your terminal:
 
 ```bash
-npx ts-node scripts/loadDb.ts
+npx run seed
 ```
 
 Wait for the script to finish. You will see log messages indicating its progress.
