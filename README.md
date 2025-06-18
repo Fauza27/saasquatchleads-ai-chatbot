@@ -1,7 +1,7 @@
-# Caprae AI Analyst
+# Caprae CHatbot AI Analyst
 https://saasquatchleads-ai-chatbot.vercel.app/
 
-**Caprae AI Analyst** is a sophisticated lead generation and analysis tool designed for private equity firms. It leverages a Retrieval-Augmented Generation (RAG) architecture to provide a conversational interface for querying a private database of company prospects. Analysts can ask natural language questions to find companies, and then perform a "Deep Dive" to generate a comprehensive executive brief by combining database information with real-time website scraping.
+**Caprae Chatbot AI Analyst** is a sophisticated lead generation and analysis tool designed for private equity firms. It leverages a Retrieval-Augmented Generation (RAG) architecture to provide a conversational interface for querying a private database of company prospects. Analysts can ask natural language questions to find companies, and then perform a "Deep Dive" to generate a comprehensive executive brief by combining database information with real-time website scraping.
 
 ## Features
 
@@ -132,7 +132,7 @@ Start the Next.js development server:
 npm run dev
 ```
 
-Open your browser and navigate to [http://localhost:3000](http://localhost:3000). You should now see the Caprae AI Analyst chat interface and be able to interact with it.
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000). You should now see the Caprae Chatbot AI Analyst chat interface and be able to interact with it.
 
 ---
 
