@@ -3,6 +3,7 @@
 import { useState, FormEvent, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ReactMarkdown from "react-markdown";
+import Image from "next/image";
 
 type SourceDocument = {
   _id: string;
@@ -24,15 +25,7 @@ type Message = {
   sources?: SourceDocument[];
 };
 
-const Logo = () => (
-  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-teal-400">
-    <title>SaaSquatch Leads</title>
-    <path
-      fill="currentColor"
-      d="M16.939 12.01a.88.88 0 01.011 1.235l-2.185 2.22a.899.899 0 01-1.264 0l-2.196-2.231a.88.88 0 01.01-1.235l.012-.012a.879.879 0 011.235-.01l.888.902.888-.902a.879.879 0 011.235.01l.011.012.155.158zm-7.95-1.25a1.59 1.59 0 00-2.25 2.25l4.37 4.37a.999.999 0 001.41 0l4.37-4.37a1.59 1.59 0 00-2.25-2.25L12 13.19l-2.855-2.855.155-.155zM12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z"
-    />
-  </svg>
-);
+const Logo = () => <Image src="/logo.png" alt="Caprae AI Logo" width={32} height={32} priority />;
 
 const TypingIndicator = () => (
   <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3 }} className="flex items-center space-x-2 bg-slate-800 rounded-2xl px-4 py-3 shadow-md border border-slate-700">
