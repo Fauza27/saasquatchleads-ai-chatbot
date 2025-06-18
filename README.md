@@ -36,8 +36,8 @@ Follow these instructions to set up and run the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/caprae-ai-analyst.git
-cd caprae-ai-analyst
+git clone https://github.com/Fauza27/saasquatchleads-ai-chatbot.git
+cd saasquatchleads-ai-chatbot
 ```
 
 ### 2. Install Dependencies
