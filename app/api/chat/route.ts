@@ -126,7 +126,7 @@ export async function POST(req: NextRequest) {
     const uniqueCompanyNames = new Set(relevantDocuments.map((doc) => doc.Company));
     const isDetailRequest = uniqueCompanyNames.size === 1;
 
-    const sourcesForRecommendation = relevantDocuments.slice(0, 1);
+    const sourcesForRecommendation = relevantDocuments.slice(0, 3);
 
     return NextResponse.json({
       answer: aiResponse,
