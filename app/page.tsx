@@ -63,7 +63,12 @@ const SourceCard = ({ source, onDeepDive }: { source: SourceDocument; onDeepDive
           Website
         </a>
         {source["Company LinkedIn"] && (
-          <a href={source["Company LinkedIn"]} target="_blank" rel="noopener noreferrer" className="flex items-center text-xs bg-slate-700 text-slate-300 px-3 py-1.5 rounded-full hover:bg-slate-600 transition-colors">
+          <a
+            href={source["Company LinkedIn"].startsWith("http") ? source["Company LinkedIn"] : `http://${source["Company LinkedIn"]}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center text-xs bg-slate-700 text-slate-300 px-3 py-1.5 rounded-full hover:bg-slate-600 transition-colors"
+          >
             LinkedIn
           </a>
         )}
