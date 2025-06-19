@@ -66,7 +66,7 @@ export async function POST(req: NextRequest) {
       {},
       {
         sort: { $vector: queryEmbedding },
-        limit: 1,
+        limit: 5,
         projection: {
           $vector: 0,
         },
